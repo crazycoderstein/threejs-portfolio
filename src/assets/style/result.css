@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Microsoft YaHei";
+  font-family: 'Microsoft YaHei';
   height: 100%;
   width: 100%;
   color: #fff;
@@ -62,7 +62,6 @@ table {
   border-spacing: 0;
 }
 
-
 abbr,
 acronym {
   border: 0;
@@ -119,7 +118,7 @@ a:link {
 }
 
 .clearfix:after {
-  content: "";
+  content: '';
   display: block;
   height: 0;
   clear: both;
@@ -144,19 +143,18 @@ a:link {
 .fade-enter,
 .fade-leave-to
 
-/* .fade-leave-active below version 2.1.8 */
-  {
+/* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
 
 .el-pagination.is-background .el-pager li {
-  background-color: #2A5178;
+  background-color: #2a5178;
   color: #fff;
 }
 
 .el-pagination.is-background .btn-prev,
 .el-pagination.is-background .btn-next {
-  background-color: #2A5178;
+  background-color: #2a5178;
   color: #fff;
 }
 
@@ -171,7 +169,7 @@ a:link {
 }
 
 .el-pagination.is-background.el-pagination--small .el-pager li {
-  margin: 0 2px
+  margin: 0 2px;
 }
 
 .el-pagination__editor.el-input {
@@ -180,19 +178,17 @@ a:link {
 }
 
 .el-dialog {
-  background-color: #000F26;
+  background-color: #000f26;
 }
 
 .el-dialog__title {
-  color: #fff
+  color: #fff;
 }
-
 
 canvas {
   border: 0;
   outline: none;
 }
-
 
 * {
   -moz-user-select: none;
@@ -252,27 +248,27 @@ ul {
 }
 
 #pureFullPage .nav .nav-dot:nth-child(1)::after {
-  content: 'AUTUMN';
+  content: 'Overview';
 }
 
 #pureFullPage .nav .nav-dot:nth-child(2)::after {
-  content: 'DISTANCE';
+  content: 'Experience';
 }
 
 #pureFullPage .nav .nav-dot:nth-child(3)::after {
-  content: 'LONELY';
+  content: 'Projects';
 }
 
 #pureFullPage .nav .nav-dot:nth-child(4)::after {
-  content: 'GRAVEL';
+  content: 'Technologies';
 }
 
 #pureFullPage .nav .nav-dot:nth-child(5)::after {
-  content: 'FLOWER';
+  content: 'Contact';
 }
 
 #pureFullPage .nav .nav-dot:nth-child(6)::after {
-  content: 'OTHER';
+  content: 'Other';
 }
 
 #pureFullPage .nav .nav-dot.active span {
@@ -309,7 +305,7 @@ ul {
   width: 31%;
   position: absolute;
   font-size: 26px;
-  color: #B0B0B5;
+  color: #b0b0b5;
 }
 .text1 {
   top: 50%;
@@ -377,10 +373,10 @@ ul {
     opacity: 0;
   }
 }
-.text3>p:last-child{
+.text3 > p:last-child {
   margin-top: 25px;
 }
 
-.dg.ac{
-  z-index: 999!important;
+.dg.ac {
+  z-index: 999 !important;
 }
